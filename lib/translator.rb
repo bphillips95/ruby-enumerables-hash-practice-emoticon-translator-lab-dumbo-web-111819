@@ -1,7 +1,7 @@
 require 'yaml'
 require 'pry'
 def load_library(library)
-hash = {"get_emoticon": {}}
+ emoticons = YAML.load_file(library)
 YAML.load_library(library.yml)
 hash
 end
