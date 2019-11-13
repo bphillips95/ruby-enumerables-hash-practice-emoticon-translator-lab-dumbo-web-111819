@@ -26,6 +26,3 @@ def get_english_meaning
   # code goes here
 end
 
-def load_library(emoticons)
-  output = {:get_meaning => YAML.load_file(emoticons), :get_emoticon => {}}
-end
