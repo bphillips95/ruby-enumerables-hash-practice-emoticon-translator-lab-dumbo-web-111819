@@ -13,7 +13,6 @@ def load_library(library)
 
   new_hash
 end
-end
 
 
 
