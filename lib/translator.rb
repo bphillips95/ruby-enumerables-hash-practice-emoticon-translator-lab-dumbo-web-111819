@@ -2,7 +2,7 @@ require 'yaml'
 require 'pry'
 def load_library(library)
  emoticons = YAML.load_file(library)
-YAML.load_library(library.yml)
+YAML.load_file(library.yml)
 hash
 end
 
