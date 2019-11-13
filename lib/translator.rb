@@ -3,7 +3,7 @@ require 'pry'
 def load_library(library)
  emoticons = YAML.load_file(library)
  new_hash = { 
-   "get meaning": {}
+   "get meaning": {},
    'get emoticon': {} }
 hash
 end
