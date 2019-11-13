@@ -3,7 +3,7 @@ require 'pry'
 def load_library(library)
 hash = {"get_emoticon": {}}
 YAML.load_library(library.yml)
-binding.pry
+hash
 end
 
 
