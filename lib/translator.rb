@@ -4,7 +4,12 @@ def load_library(library)
 hash = {"get_emoticon": {}}
 YAML.load_library('library.yml')
 end
-end
+
+
+
+
+
+
 def get_japanese_emoticon
   # code goes here
 end
